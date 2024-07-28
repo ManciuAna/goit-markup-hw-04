@@ -405,6 +405,12 @@ img {
   margin-bottom: 16px;
   padding: 0;
 }
+.footer-soc-block-header {
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  margin-bottom: 16px;
+  }
 .footer-paragraph {
   max-width: 264px;
   font-size: 16px;
