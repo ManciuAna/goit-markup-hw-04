@@ -127,7 +127,8 @@ img {
   color: #ffffff;
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  }
+  
+}
 
 .container-hero {
   width: 1158px;
@@ -391,18 +392,16 @@ img {
 .footer-section {
   background: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
+    margin-bottom: 16px;
   padding: 0;
 }
 .container-footer {
   padding-left: 156px;
-  display: inline-block;
   margin-bottom: 16px;
   padding: 0;
 }
 .logo-footer {
-  display: inline-block;
+  
   margin-bottom: 16px;
   padding: 0;
 }
