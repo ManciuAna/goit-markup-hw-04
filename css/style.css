@@ -35,7 +35,7 @@ img {
 }
 .studio-text {
   color: #2e2f42;
-  }
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -60,8 +60,8 @@ img {
   display: flex;
   gap: 40px;
 }
-.head-item-list .link:hover::after,
-.active::after {
+.head-item-list .link:hover ::after,
+.active ::after {
   padding: 24px 0;
   content: "";
   height: 4px;
@@ -74,7 +74,7 @@ img {
   bottom: -1px;
 }
 
-.header-link-link ::after{
+.header-link-link ::after {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -126,8 +126,10 @@ img {
 .hero-section {
   color: #ffffff;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
 }
 
 .container-hero {
@@ -197,7 +199,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.quality-list-item{
+.quality-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .quality-list-title {
@@ -215,7 +217,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.benefits-icon-container{
+.benefits-icon-container {
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -225,7 +227,7 @@ img {
   justify-content: center;
   height: 112px;
 }
-.benefits-icon{
+.benefits-icon {
   display: block;
   margin: 24px auto;
 }
@@ -378,7 +380,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .portfolio-list-description {
@@ -392,7 +394,7 @@ img {
 .footer-section {
   background: #2e2f42;
   padding: 100px 0;
-    margin-bottom: 16px;
+  margin-bottom: 16px;
   padding: 0;
 }
 .container-footer {
@@ -401,7 +403,6 @@ img {
   padding: 0;
 }
 .logo-footer {
-  
   margin-bottom: 16px;
   padding: 0;
 }
@@ -409,8 +410,11 @@ img {
   color: #fff;
   letter-spacing: 0.02em;
   font-weight: 500;
-  margin-bottom: 16px;
-  }
+  margin-right: 120px;
+}
+.footer-text-block {
+  margin-right: 120px;
+}
 .footer-paragraph {
   max-width: 264px;
   font-size: 16px;
@@ -426,11 +430,10 @@ img {
 }
 footer .social-links {
   gap: 16px;
-  }
-  .footer .social-links .soc-link:hover,
-  .footer .social-links .soc-link:focus {
+}
+.footer .social-links .soc-link:hover,
+.footer .social-links .soc-link:focus {
   background-color: #31d0aa;
-  }
-  .soc-link-block {
-  }
-  
+}
+.soc-link-block {
+}
