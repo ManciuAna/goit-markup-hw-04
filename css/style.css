@@ -62,7 +62,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.head-item-list .link:hover ::after,
+.head-item-list .header-link-link:hover ::after,
 .active ::after {
   padding: 24px 0;
   content: "";
