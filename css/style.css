@@ -242,18 +242,10 @@ img {
   color: #434455;
 }
 .benefits-icon-container {
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
+  margin-bottom: 20px;
 }
 .benefits-icon {
-  display: block;
-  margin: 24px auto;
+  fill: #4d5ae5;
 }
 .team-section {
   padding-top: 120px;
