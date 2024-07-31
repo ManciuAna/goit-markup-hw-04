@@ -447,6 +447,10 @@ img {
 footer .social-links {
   gap: 16px;
 }
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
 .footer .social-links .soc-link:hover,
 .footer .social-links .soc-link:focus {
   background-color: #31d0aa;
