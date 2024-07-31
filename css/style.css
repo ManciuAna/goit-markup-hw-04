@@ -438,6 +438,8 @@ img {
 }
 .footer-text-block {
   margin-right: 120px;
+  display: flex; 
+  align-items: baseline
 }
 .footer-paragraph {
   max-width: 264px;
