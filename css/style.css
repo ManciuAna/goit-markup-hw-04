@@ -345,8 +345,8 @@ img {
   border-top: none;
 }
 .portfolio-item-overlay {
-  position: relative;
-  overflow: hidden;
+  position: relative; 
+  overflow: hidden; 
 }
 .overlay {
   position: absolute;
